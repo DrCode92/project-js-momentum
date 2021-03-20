@@ -1,11 +1,84 @@
 body {
   background-color: #34495e;
+  height: 100vh;
+}
+.top-content span {
+  display: flex;
+  justify-content: flex-end;
+}
+.js-weather {
+  font-size: 28px;
+  font-weight: 600;
+}
+.js-city {
+  font-size: 14px;
+}
+.js-clock {
+  font-size: 64px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 50px;
+}
+.js-form span,
+.js-toDoForm span {
+  height: 30px;
+  width: 300px;
+  font-size: 32px;
+  display: block;
+  text-align: center;
+}
+.js-form input,
+.js-toDoForm input {
+  height: 30px;
+  width: 300px;
+  text-align: center;
+  font-size: 32px;
+  background-color: transparent;
+  border-style: none;
+  color: white;
+  border-bottom: solid 2px white;
+}
+.js-from input {
+  margin-bottom: 60px;
 }
 
-.btn {
+.js-form input:focus,
+.js-toDoForm input:focus {
+  outline: none;
+}
+.js-greetings {
+  font-size: 40px;
+  font-weight: 600;
+}
+.body-content {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.js-toDoList {
+  list-style-type: square;
+  font-size: 24px;
+}
+.js-toDoList li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style-type: square;
+  font-size: 28px;
+}
+.js-toDoList button {
   cursor: pointer;
+  border: none;
+  font-size: 28px;
+  color: chartreuse;
+  background-color: transparent;
 }
-
+.js-toDoList button:focus {
+  outline: none;
+}
 body {
   color: white;
 }
